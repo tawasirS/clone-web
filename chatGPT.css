@@ -1,0 +1,106 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+    flex-direction: row;
+    background-color: #343541;
+    overflow:hidden;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    font-size: medium;
+}
+
+.left-bar{
+    background-color: #202123;
+    width: 20vw;
+}
+
+.scroll{
+    height: 70vh;
+    overflow:auto;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    align-items: center; /* Add this line to center vertically */
+}
+
+.new-chat {
+    display: inline-block;
+    width: 70%;
+    height: 7vh;
+    margin: 5px 0px 5px 5px;
+    border: 1px solid #4d4d4f;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+}
+
+.hide {
+    display: inline-block;
+    width: 20%;
+    height: 7vh;
+    margin: 5px;
+    border: 1px solid #4d4d4f;
+    border-radius: 10px;
+}
+
+
+.day{
+    color: #858596;
+    margin-left: 10px;
+    font-size: small;
+    font-style: normal;
+}
+
+.select-chat{
+    margin: 5px;
+}
+
+.select-chat:hover{
+    border-radius: 10px;
+    padding: 0px;
+    background-color: #2a2b32;
+}
+
+.upgarde{
+    margin: 10px;
+}
+
+.upgarde:hover{
+    background: #343541;
+    border-radius: 10px;
+}
+
+.bottom{
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 20vw;
+}
+
+.chat{
+    display: flex;
+    flex-direction: column;
+    background-color: #343541;
+    width: 80vw;
+}
+
+.advice{
+    height: 50px;
+    width: 23vw;
+    border: 1px solid #858596;
+    border-radius: 10px;
+    display: inline-block;
+}
+
+.advice:hover{
+    background-color: #40414f;
+}
+
+.input-chat{
+    margin: auto;
+}
