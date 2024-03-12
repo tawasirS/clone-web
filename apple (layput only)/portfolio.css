@@ -1,0 +1,91 @@
+html,body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+
+nav{
+    margin: 0;
+    padding: 0;
+    height: 7vh;
+    width: 100%;
+    background-color: black;
+    opacity: 0.8;
+}
+
+.logo{
+    color: aliceblue;
+}
+
+.slide1{
+    height: 90vh;
+    margin-bottom: 10px;
+    background-color: antiquewhite;
+}
+
+.slide2{
+    height: 90vh;
+    margin-bottom: 10px;
+    background-color:darkslategrey ;
+}
+
+.cardbox{
+    background-color: bisque;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content:space-around ;
+    padding-bottom: 10px;
+}
+
+.card{
+    width: 45%;
+    height: 60vh;
+    margin-top: 10px;
+    background-color: aliceblue;
+}
+
+@media screen and (max-width: 700px) {
+    .cardbox {   
+      flex-direction: column;
+    }
+}
+
+.scroll {
+    display: block;
+    height: 70vh;
+    width: 100%;
+    overflow-x: auto;
+    overflow-y: hidde;
+    white-space: nowrap;
+    background-color: blanchedalmond;
+}
+
+.content {
+    display: flex;
+}
+
+.scroll-pic {
+    flex: 0 0 auto;
+    height: 60vh;
+    width: 800px;
+    background-color: aqua;
+    margin: 1px;
+    margin-top: 5vh;
+}
+
+footer{
+    background-color: aquamarine;
+    padding: 20px 100px 20px 100px ;
+}
+
+.footer-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.footer-element{
+
+}
